@@ -18,7 +18,7 @@ class DefaultButton extends StatelessWidget {
       ),  
       onPressed: press,
       child: Text(text.toUpperCase(),
-      style: TextStyle(color: Colors.black.withOpacity(0.9)),
+      style: TextStyle(color: Colors.black.withOpacity(0.9),fontWeight: FontWeight.w900),
       ),
       ),
     );
